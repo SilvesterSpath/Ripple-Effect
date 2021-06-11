@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+  --button-color: #13c70d;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(102, 101, 101);
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -18,9 +22,9 @@ body {
 
 button {
   position: relative;
-  background-color: purple;
+  background-color: var(--button-color);
   color: white;
-  border: 1px purple solid;
+  border: 1px var(--button-color);
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
